@@ -455,7 +455,7 @@ footer {
 .p-logo {
   max-width: 300px !important; /* Adjust the maximum width of the client logos */
   margin: 0 auto; /* Center the logos horizontally */
-  border-radius: 100px; 
+  border-radius: 300px; 
 }
 
 /*Animations*/
@@ -481,4 +481,7 @@ animation: fadeIn 1s 2s ease-in-out; /* Run the fade-in animation once */
 }
 .bg-pulse {
   animation: pulse 2s 1s 1;
+}
+.logo-container {
+  padding: 0; /* Set the desired padding for the logo container */
 }
